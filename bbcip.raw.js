@@ -55,7 +55,7 @@ const BbContentItemPlus = (function() {
 		allContentItems.filter(filterAnyHeaderItems).forEach(makeHeader)
 		allContentItems.filter(actionTagItems).forEach(makeActionTag)
 		
-		let scriptItem = (document.currentScript && document.currentScript.closest('.liItem.read')) || document.getElementById('BbContentItemPlus')
+		let scriptItem = (document.currentScript && document.currentScript.closest('.liItem.read')) || document.getElementById('BbContentItemPlus').closest('.liItem.read')
 		if (scriptItem) {
 			scriptItem.style.display = "none"
 		}
@@ -67,4 +67,4 @@ const BbContentItemPlus = (function() {
 	}
 	
 })()
-window.setTimeout(BbContentItemPlus.begin, 250)
+window.setTimeout(BbContentItemPlus.begin, 200)
