@@ -9,7 +9,7 @@ A Javascript that can be included inside Blackboard that enables action tags for
 3. Use the HTML mode editor to set the item's content to the following code snippet. Please note that when this tool is out of testing, a different URL will be used.
 
 ~~~html
-<script id="BbContentItemPlus" src="https://rawcdn.githack.com/GVSU-eLearning-and-Emerging-Technology/BlackboardContentItemPlus/02cfb4cb846a11ec3893122bb812796ce4e0973c/bbcip.js" type="text/javascript"></script>
+<script id="BbContentItemPlus" src="https://rawcdn.githack.com/GVSU-eLearning-and-Emerging-Technology/BlackboardContentItemPlus/4321b4fa21ff7a057a46bcb0aed8d0e875df89e2/bbcip.js" type="text/javascript"></script>
 ~~~
 
 4. MORE INFORMATION HERE
@@ -17,5 +17,5 @@ A Javascript that can be included inside Blackboard that enables action tags for
 ## Other Notes
 
 Obfuscation with:
-https://javascriptobfuscator.com/Javascript-Obfuscator.aspx
 https://www.preemptive.com/products/jsdefender/online-javascript-obfuscator-demo
+https://javascriptobfuscator.com/Javascript-Obfuscator.aspx
