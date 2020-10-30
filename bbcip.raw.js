@@ -35,7 +35,8 @@ const BbContentItemPlus = (function() {
 			item.style.background = "#ddd"			
 			prefix = headerPrefix
 		}
-		item.style.border = "none !important"
+		item.style.borderLeft = "1px solid #cdcdcd"
+		item.style.borderRight = "1px solid #cdcdcd"
 		item.querySelector("img.item_icon").style.display = "none"
 		item.querySelector("div.item").style.paddingLeft = "0"
 		item.querySelector("div.details").style.paddingLeft = "0"
@@ -45,7 +46,7 @@ const BbContentItemPlus = (function() {
 	
 	const makeActionTag = function(item) {
 		let title = itemTitle(item)
-		item.innerHTML = item.innerText.replace(actionTagPrefix, (match, p1) => `<span style="background:black;color:white;padding:0.25rem 0.6rem;margin-right:0.5rem;text-decoration:none;border-radius:0.35rem;font-weight:bold;">${p1.toUpperCase()}</span>`);
+		title.innerHTML = title.innerText.replace(actionTagPrefix, (match, p1) => `<span style="background:black;color:white;padding:0.25rem 0.6rem;margin-right:0.5rem;text-decoration:none;border-radius:0.35rem;font-weight:bold;">${p1.toUpperCase()}</span>`);
 	}
 
 	
