@@ -32,7 +32,7 @@ const BbContentItemPlus = (function() {
 		allContentItems.filter(filterHeaderItems).forEach(makeHeader)
 		allContentItems.filter(actionTagItems).forEach(makeActionTag)
 		
-		let scriptItem = document.currentScript.closest('.liItem.read') || document.getElementById('BbContentItemPlus')
+		let scriptItem = (document.currentScript && document.currentScript.closest('.liItem.read')) || document.getElementById('BbContentItemPlus')
 		if (scriptItem) {
 			scriptItem.style.display = "none"
 		}
