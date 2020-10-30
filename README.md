@@ -4,16 +4,15 @@ A Javascript that can be included inside Blackboard that enables action tags for
 
 ## How to use this
 
-1. Choose a content area where you'd like to use a checklist
-2. Create an item in that content area. Give it the name "Checklist Script". Using this name will allow the script to hide that item automatically.
+1. Choose a content area where you'd like to use these features
+2. Create an item in that content area. Give it a name like "Script".
 3. Use the HTML mode editor to set the item's content to the following code snippet. Please note that when this tool is out of testing, a different URL will be used.
 
 ~~~html
-<div id="magicUserID" style="display: none;">@X@user.id@X@</div>
-<script src="https://rawcdn.githack.com/mmcr/BlackboardChecklist/7f468e98f41644c6b2bd7db8ceba2ca57300d2eb/bbchecklist.js" type="text/javascript"></script>
+<script id="BbContentItemPlus" src="https://rawcdn.githack.com/GVSU-eLearning-and-Emerging-Technology/BlackboardContentItemPlus/02cfb4cb846a11ec3893122bb812796ce4e0973c/bbcip.js" type="text/javascript"></script>
 ~~~
 
-4. Give the name "Learner Guide" to a content item within the content area. Any unordered list items within that content item will be turned into checkboxes. Each list item is tracked by the first twenty text characters.
+4. MORE INFORMATION HERE
 
 ## Other Notes
 
