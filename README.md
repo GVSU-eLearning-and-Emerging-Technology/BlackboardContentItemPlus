@@ -9,7 +9,7 @@ A Javascript that can be included inside Blackboard that enables action tags for
 3. Use the HTML mode editor to set the item's content to the following code snippet. Please note that when this tool is out of testing, a different URL will be used.
 
 ~~~html
-<script id="BbContentItemPlus" src="https://rawcdn.githack.com/GVSU-eLearning-and-Emerging-Technology/BlackboardContentItemPlus/4321b4fa21ff7a057a46bcb0aed8d0e875df89e2/bbcip.js" type="text/javascript"></script>
+<script id="BbContentItemPlus" src="https://rawcdn.githack.com/GVSU-eLearning-and-Emerging-Technology/BlackboardContentItemPlus/4ffad0464413c2c0cf5104e93f67ff60d59e6ec0/bbcip.js" type="text/javascript"></script>
 ~~~
 
 4. MORE INFORMATION HERE
