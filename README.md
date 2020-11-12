@@ -16,7 +16,6 @@ A Javascript that can be included inside Blackboard that enables improved UX, in
 
 ## Future Features
 * Interactive checklists.
-* Custom icons.
 
 ## Other Notes
 
